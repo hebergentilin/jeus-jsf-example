@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<jeus-web-dd xmlns="http://www.tmaxsoft.com/xml/ns/jeus">
+    <!-- the URL path of the context.  -->
+    <context-path>/example</context-path>
+    <!-- session-related settings for this context -->
+    <session-config>
+        <timeout>1</timeout>
+        <tracking-mode>
+            <cookie>false</cookie>
+        </tracking-mode>
+    </session-config>
+    <library-ref>
+       <library-name>jsf</library-name>
+       <specification-version>1.2</specification-version>
+   	</library-ref>
+</jeus-web-dd>
